@@ -1,0 +1,36 @@
+form {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: #e5e6e8;
+  width: 20%;
+  padding: 3%;
+}
+
+.alert {
+  background-color: #dc6444;
+  color: white;
+  padding: 3%;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form input {
+  height: 5vh;
+}
+
+.form input[type="submit"] {
+  margin-top: 10%;
+  background-color: #0275d8;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}

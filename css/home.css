@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+/* Main */
+
+main {
+  padding: 2% 5%;
+}
+
+main h1 {
+  text-align: center;
+}

@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+/* Main */
+
+main {
+  padding: 2% 5%;
+  margin-bottom: 10%;
+}
+
+.header-table {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1%;
+}
+
+.header-table div {
+  display: flex;
+  width: 45%;
+  align-items: center;
+}
+
+.btn-tambah {
+  padding: 1%;
+  background-color: #0275d8;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  margin-right: 5%;
+}
+
+.header-table div img {
+  width: 10%;
+}
+
+table {
+  width: 100%;
+}
+
+table tr th {
+  background-color: #0275d8;
+  color: white;
+}
+
+table tr td {
+  text-align: center;
+}
+
+.pagination {
+  margin-top: 2%;
+}
+
+.pagination a {
+  padding: 0.5%;
+  background-color: #0275d8;
+  text-decoration: none;
+  color: white;
+}
